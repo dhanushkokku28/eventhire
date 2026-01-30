@@ -1,10 +1,10 @@
-# Wellfound - Event Requirement Posting Platform
+# EventHire - Event Requirement Posting Platform
 
 A complete full-stack solution for posting event requirements and connecting with professional vendors (Event Planners, Performers, and Crew).
 
 ## 🎯 Project Overview
 
-Wellfound is a 3-4 step form-based application that allows event organizers to:
+EventHire is a 3-4 step form-based application that allows event organizers to:
 1. Enter basic event details
 2. Select the type of vendor they need
 3. Provide vendor-specific requirements

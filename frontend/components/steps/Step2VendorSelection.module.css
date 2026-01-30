@@ -1,0 +1,107 @@
+.step {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.step h2 {
+  color: #333;
+  margin-bottom: 16px;
+  font-size: 22px;
+}
+
+.description {
+  color: #666;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.vendorGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.vendorCard {
+  background: #f8f8f8;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.vendorCard:hover {
+  border-color: #667eea;
+  background: #f0f0ff;
+  transform: translateY(-4px);
+}
+
+.vendorCard.selected {
+  border-color: #667eea;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+}
+
+.vendorIcon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.vendorLabel {
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.checkmark {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  background-color: #48bb78;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.descriptionBox {
+  background: #f8f8f8;
+  border-left: 4px solid #667eea;
+  padding: 16px;
+  border-radius: 6px;
+}
+
+.descriptionBox h3 {
+  color: #333;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.descriptionBox p {
+  color: #666;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .vendorGrid {
+    grid-template-columns: 1fr;
+  }
+}

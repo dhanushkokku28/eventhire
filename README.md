@@ -2,6 +2,9 @@
 
 A complete full-stack solution for posting event requirements and connecting with professional vendors (Event Planners, Performers, and Crew).
 
+### Live Frontend URL
+https://eventhire-28.vercel.app/
+
 ## 🎯 Project Overview
 
 EventHire is a 3-4 step form-based application that allows event organizers to:

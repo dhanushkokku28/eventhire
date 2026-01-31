@@ -1,9 +1,10 @@
 # EventHire - Event Requirement Posting Platform
 
+🔗 **Live Frontend (Vercel):** https://eventhire-28.vercel.app  
+🔗 **Live Backend (Render):** https://eventhire.onrender.com
+
 A complete full-stack solution for posting event requirements and connecting with professional vendors (Event Planners, Performers, and Crew).
 
-### Live Frontend URL
-https://eventhire-28.vercel.app/
 
 ## 🎯 Project Overview
 

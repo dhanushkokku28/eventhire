@@ -1,0 +1,20 @@
+# Netlify configuration for monorepo with separate frontend and backend
+
+# Frontend (Next.js) deployment
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+# Redirects for Next.js
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Backend functions (if using Netlify Functions)
+[functions]
+  directory = "backend"
